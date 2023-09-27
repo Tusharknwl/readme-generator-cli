@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "@tushar/readme-generator",
+  "version": "1.0.0",
+  "description": "readme-generator-cli is a user-friendly Command Line Interface (CLI) tool that simplifies README file creation for GitHub repositories. Generate professional documentation effortlessly with customizable templates, saving time and ensuring clear project communication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-readme": "node index.js"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "cli",
+    "command",
+    "line",
+    "interface",
+    "tool",
+    "github",
+    "repository",
+    "documentation",
+    "template",
+    "project",
+    "communication"
+  ],
+  "bin": "./index.js",
+  "author": "Tusharknwl",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tusharknwl/readme-generator-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tusharknwl/readme-generator-cli/issues"
+  },
+  "homepage": "https://github.com/Tusharknwl/readme-generator-cli#readme",
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  }
+}
